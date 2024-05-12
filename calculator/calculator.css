@@ -1,0 +1,24 @@
+.mainContainer {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#display {
+    width: 500%;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+}
+
+button {
+    width: 100%;
+    font-size: 50px;
+}
+
+
+

@@ -1,0 +1,39 @@
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    /*margin-top: 10px;*/
+}
+.mid-section{
+    display: flex;
+    gap: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+}
+.mid-section > p{
+    color: #4d4d4d;
+    font-size: 16px;
+}
+.hero-section{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 90px;
+}
+.hero-section> div > h1{
+    color: #4d4d4d;
+    font-weight: bolder;
+    font-size: 45px;
+
+}
+.client{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.member{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
